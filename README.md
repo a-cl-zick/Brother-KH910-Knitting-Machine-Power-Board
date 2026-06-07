@@ -1,12 +1,8 @@
-#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#
 
 
 Title: 
 
 Brother KH-910 Knitting Machine 5-15v Power Board
-
-
-#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#
 
 
 Description: 
@@ -35,9 +31,6 @@ the symbol pinouthas the emitter with the arrow indicator.
 That was something that tripped me up when I was designing it, so just be vigilant.
 
 
-#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#
-
-
 Usage:
 
 Currently this project only contains the schematic design, and doesn't include a PCB design.
@@ -45,9 +38,6 @@ This does allow for easier visual troubleshooting, along with KiCAD's simulation
 
 Depending on what I find regarding my troubleshooting journey, as well as how many people request it, I might do the PCB design along with it.
 Also I chose the GNU GPLv3 so anyone can fork off of it and do it themselves if they feel so inclined.
-
-
-#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#%#
 
 
 Conclusion / Final Thoughts:
