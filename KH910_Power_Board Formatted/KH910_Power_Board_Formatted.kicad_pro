@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1"
+      "sch_revision": "0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KH910_Power_Board.kicad_pro",
+    "filename": "KH910_Power_Board_Formatted.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -419,18 +419,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "KH910_Power_Board.kicad_sch",
-        "name": "Root",
+        "filename": "KH910_Power_Board_Formatted.kicad_sch",
+        "name": "KH910_Power_Board_Formatted",
         "uuid": "798c58ea-bf5d-4aa2-82b6-c9bcd3ab868d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR2-24",
     "variants": []
   },
   "sheets": [
     [
       "798c58ea-bf5d-4aa2-82b6-c9bcd3ab868d",
-      "Root"
+      "KH910_Power_Board_Formatted"
     ]
   ],
   "text_variables": {},
