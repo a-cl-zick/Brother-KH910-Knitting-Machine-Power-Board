@@ -9,6 +9,8 @@ I also fixed an issue where I accidently labeled two pin sets the same "P8" name
 
 There are some issues with trying to simulate it, as some of the transistors I used in the schematic don't have simulation profiles, so I'm going to have to figure out how to fix that soon, but it shouldn't be too bad.
 
+I added some KiCanvas links in the description section to make it easier to view the schematics.
+
 This has been a very insightful experience into how to use KiCAD, as this is my first "full" project using the program to make schematics. To anyone following this, I appreciate any help and patience, since this is very much a learning experience for me.
 
 
@@ -32,16 +34,20 @@ regarding the knitting machine's internal circuit boards, are essentially non-ex
 Hence I have taken it upon myself to fully recreate the board using KiCAD.
 
 
+KiCanvas link for KH910_Power_Board: https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fa-cl-zick%2FBrother-KH910-Knitting-Machine-Power-Board%2Fblob%2Fmain%2FKH910_Power_Board%2FKH910_Power_Board.kicad_sch
+
+KiCanvas link for KH_Power_Board_Formatted: https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fa-cl-zick%2FBrother-KH910-Knitting-Machine-Power-Board%2Fblob%2Fmain%2FKH910_Power_Board_Formatted%2FKH910_Power_Board_Formatted.kicad_sch
+
+
 This recreated board uses the same circuit structure as the original board, but replaces some outdated components with modern equivilants.
 I chose to go down this path as many of the transistors used on this board aren't in production any more and don't have great datasheets.
 Using modern components also worked better with KiCAD, which was nice.
 
-I included the datasheets and pinout images that I used under \Component-Schematics-And-Pinouts\ to save anyone forking or referencing the 
-schematic for troubleshooting some time.
+I included the datasheets and pinout images that I used under \Component-Schematics-And-Pinouts\ to save anyone forking or referencing the schematic for troubleshooting some time.
 
 If troubleshooting the physical board with this, be careful about understanding the pinout of whatever component you're probing.
 For instance, the original B772 transistor's symbol pinout has the collector with the arrow indicator, while with the new BD442 transistor, 
-the symbol pinouthas the emitter with the arrow indicator.
+the symbol pinout has the emitter with the arrow indicator.
 That was something that tripped me up when I was designing it, so just be vigilant.
 
 
