@@ -1,4 +1,18 @@
 
+Update: (6/9/2026)
+
+I've made another version of the schematic called KH910_Power_Board_Formatted, as when I was sharing the schematic with others and tried to troubleshoot using it, we had trouble understanding the long traces/wires I had on the original.
+
+I'm still keeping the original version here, since it is a closer representation to how the actual board traces and components are positioned and connected, but for troubleshooting and seeing the actual relationship between components, the new formatted version should be much more useful.
+
+I also fixed an issue where I accidently labeled two pin sets the same "P8" name, so I fixed that.
+
+There are some issues with trying to simulate it, as some of the transistors I used in the schematic don't have simulation profiles, so I'm going to have to figure out how to fix that soon, but it shouldn't be too bad.
+
+This has been a very insightful experience into how to use KiCAD, as this is my first "full" project using the program to make schematics. To anyone following this, I appreciate any help and patience, since this is very much a learning experience for me.
+
+
+
 
 Title: 
 
